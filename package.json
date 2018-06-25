@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Authing/express-middleware/issues"
   },
-  "homepage": "https://github.com/Authing/express-middleware#readme"
+  "homepage": "https://github.com/Authing/express-middleware#readme",
+  "dependencies": {
+    "authing-js-sdk": "^0.1.14"
+  }
 }
