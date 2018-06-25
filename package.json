@@ -1,0 +1,23 @@
+{
+  "name": "express-middleware",
+  "version": "1.0.0",
+  "description": "Authing middleware for express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authing/express-middleware.git"
+  },
+  "keywords": [
+    "authing",
+    "express"
+  ],
+  "author": "Authing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Authing/express-middleware/issues"
+  },
+  "homepage": "https://github.com/Authing/express-middleware#readme"
+}
