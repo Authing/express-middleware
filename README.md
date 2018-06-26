@@ -28,3 +28,7 @@ app.get('/', function (req, res) {
 app.listen(3000)
 
 ```
+
+## More
+
+[Authing Official Docs](https://docs.authing.cn)
