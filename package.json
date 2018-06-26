@@ -1,6 +1,6 @@
 {
-  "name": "express-middleware",
-  "version": "1.0.0",
+  "name": "express-authing",
+  "version": "0.0.1",
   "description": "Authing middleware for express.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Authing/express-middleware.git"
+    "url": "git+https://github.com/Authing/express-authing.git"
   },
   "keywords": [
     "authing",
@@ -17,9 +17,9 @@
   "author": "Authing",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Authing/express-middleware/issues"
+    "url": "https://github.com/Authing/express-authing/issues"
   },
-  "homepage": "https://github.com/Authing/express-middleware#readme",
+  "homepage": "https://github.com/Authing/express-authing#readme",
   "dependencies": {
     "authing-js-sdk": "^0.1.14"
   }

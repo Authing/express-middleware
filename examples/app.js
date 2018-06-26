@@ -12,6 +12,7 @@ app.get('/', function (req, res) {
 
   //req.authing.login
   //req.authing.register
+  //req.authing...
 })
 
 app.listen(3000)
