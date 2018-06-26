@@ -21,7 +21,11 @@ module.exports = function(options) {
               throw error;
             });
         }else {
-           throw "您尚未通过clientId和Secret验证，请确认是否通过"
+           if(auth) {
+               req.authing = auth;
+           }else {
+               throw "您尚未通过clientId和Secret验证，请确认是否通过"           
+           }
         }
 
     };
