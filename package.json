@@ -1,6 +1,6 @@
 {
   "name": "express-authing",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Authing middleware for express.js",
   "main": "index.js",
   "scripts": {
