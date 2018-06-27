@@ -10,7 +10,7 @@ app.use(authing({
 app.get('/', function (req, res) {
   //use authing
 
-  //req.authing.login
+  // req.authing.login()
   //req.authing.register
   //req.authing...
 })

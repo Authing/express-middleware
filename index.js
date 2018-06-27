@@ -14,6 +14,7 @@ module.exports = function(options) {
             
             auth.then((validAuth) => {
               req.authing = validAuth;
+              auth = validAuth;
               authResult = true;
               next()
             }).catch((error) => {
