@@ -23,7 +23,8 @@ module.exports = function(options) {
             });
         }else {
            if(auth) {
-               req.authing = auth;
+              req.authing = auth;
+              next()               
            }else {
                throw "您尚未通过clientId和Secret验证，请确认是否通过"           
            }
