@@ -1,6 +1,6 @@
 {
   "name": "express-authing",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Authing middleware for express.js",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Authing/express-authing#readme",
   "dependencies": {
-    "authing-js-sdk": "^0.1.15"
+    "authing-js-sdk": "^1.1.7"
   }
 }
