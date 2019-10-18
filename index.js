@@ -8,25 +8,22 @@ module.exports = function(options) {
             auth = new Authing({
                 clientId: options.clientId,
                 secret: options.secret,
+                onInitError: function(err) {
+                    authResult = false;
+                    throw err
+                }
             });
 
             authed = true;
-            
-            auth.then((validAuth) => {
-              req.authing = validAuth;
-              auth = validAuth;
-              authResult = true;
-              next()
-            }).catch((error) => {
-              authResult = false;
-              throw error;
-            });
-        }else {
+            authResult = true;
+            req.authing = auth;
+            next()
+        } else {
            if(auth) {
               req.authing = auth;
               next()               
            }else {
-               throw "您尚未通过clientId和Secret验证，请确认是否通过"           
+               throw "您尚未通过 userPoolId 和 Secret 验证，请确认是否通过"           
            }
         }
 

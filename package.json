@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Authing/express-authing#readme",
   "dependencies": {
-    "authing-js-sdk": "^1.1.7"
+    "authing-js-sdk": "^3.0.0-rc.1"
   }
 }
