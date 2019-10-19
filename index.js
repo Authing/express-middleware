@@ -6,7 +6,7 @@ module.exports = function(options) {
     return function(req, res, next) {
         if(!authResult && !authed) {    
             auth = new Authing({
-                clientId: options.clientId,
+                userPoolId: options.userPoolId,
                 secret: options.secret,
                 onInitError: function(err) {
                     authResult = false;
