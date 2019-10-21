@@ -3,7 +3,7 @@
 ## Install
 
 ``` shell
-$ npm install express-authing --save
+$ npm install @authing/express --save
 ```
 
 ## Usage
@@ -11,10 +11,10 @@ $ npm install express-authing --save
 ``` javascript
 var express = require('express')
 var app = express()
-var authing = require('express-authing')
+var authing = require('@authing/express')
 
 app.use(authing({
-  clientId: '',
+  userPoolId: '',
   secret: ''
 }))
 
